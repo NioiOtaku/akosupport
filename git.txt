@@ -1,0 +1,5 @@
+git add .
+git commit -am "Sad"
+git push heroku master
+cls
+heroku run node bot.js
