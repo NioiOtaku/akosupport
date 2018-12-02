@@ -70,7 +70,7 @@ Bot.login = function() {
 
 Bot.onReady = function() {
 	if(process.send) process.send('BotReady');
-	console.log('Estou Vivo Criador!');
+	console.log('Bot is ready!');
 	this.preformInitialization();
 };
 
